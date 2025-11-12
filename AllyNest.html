@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AllyNest</title>
+  <link rel="stylesheet" href="AllyNest.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Open+Sans:wght@400;600&family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header / Navbar -->
+  <header class="navbar">
+    <div class="logo">AllyNest</div>
+    
+    <button class="menu-toggle" aria-expanded="false" aria-controls="nav-list">
+      &#9776; </button>
+
+    <ul class="nav-links" id="nav-list"> 
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#technologies">Technologies</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </header>
+
+  <section class="hero">
+    <!-- AI Robot Heads -->
+    <div class="robot robot1">
+      <svg width="100" height="120" viewBox="0 0 64 80" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:#00bfff;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#0047ab;stop-opacity:1" />
+          </linearGradient>
+        </defs>
+        <rect x="12" y="10" width="40" height="60" rx="10" ry="10" fill="url(#grad1)" stroke="#0047ab" stroke-width="2"/>
+        <circle cx="24" cy="30" r="5" fill="#fff"/>
+        <circle cx="40" cy="30" r="5" fill="#fff"/>
+        <rect x="22" y="50" width="20" height="4" rx="2" fill="#00e5ff"/>
+        <line x1="32" y1="0" x2="32" y2="10" stroke="#0047ab" stroke-width="2"/>
+      </svg>
+    </div>
+  
+    <div class="robot robot2">
+      <svg width="80" height="100" viewBox="0 0 64 80" xmlns="http://www.w3.org/2000/svg">
+        <rect x="15" y="15" width="34" height="50" rx="8" ry="8" fill="#3399ff" stroke="#0047ab" stroke-width="2"/>
+        <circle cx="26" cy="32" r="4" fill="#fff"/>
+        <circle cx="38" cy="32" r="4" fill="#fff"/>
+        <rect x="25" y="50" width="14" height="3" rx="1.5" fill="#00e5ff"/>
+      </svg>
+    </div>
+  
+    <div class="robot robot3">
+      <svg width="120" height="140" viewBox="0 0 64 80" xmlns="http://www.w3.org/2000/svg">
+        <rect x="10" y="5" width="44" height="70" rx="12" ry="12" fill="#00aaff" stroke="#0047ab" stroke-width="2"/>
+        <circle cx="22" cy="30" r="5" fill="#fff"/>
+        <circle cx="42" cy="30" r="5" fill="#fff"/>
+        <rect x="20" y="55" width="24" height="5" rx="2" fill="#00e5ff"/>
+        <line x1="32" y1="0" x2="32" y2="8" stroke="#0047ab" stroke-width="2"/>
+      </svg>
+    </div>
+  
+    <div class="robot robot4">
+      <svg width="70" height="90" viewBox="0 0 64 80" xmlns="http://www.w3.org/2000/svg">
+        <rect x="15" y="10" width="34" height="55" rx="10" ry="10" fill="#0066cc" stroke="#0047ab" stroke-width="2"/>
+        <circle cx="26" cy="28" r="3" fill="#fff"/>
+        <circle cx="38" cy="28" r="3" fill="#fff"/>
+        <rect x="25" y="45" width="14" height="3" rx="1.5" fill="#00e5ff"/>
+      </svg>
+    </div>
+  
+    <div class="robot robot5">
+      <svg width="90" height="110" viewBox="0 0 64 80" xmlns="http://www.w3.org/2000/svg">
+        <rect x="12" y="8" width="40" height="60" rx="10" ry="10" fill="#0099ff" stroke="#0047ab" stroke-width="2"/>
+        <circle cx="24" cy="30" r="4" fill="#fff"/>
+        <circle cx="40" cy="30" r="4" fill="#fff"/>
+        <rect x="22" y="50" width="20" height="4" rx="2" fill="#00e5ff"/>
+        <line x1="32" y1="0" x2="32" y2="8" stroke="#0047ab" stroke-width="2"/>
+      </svg>
+    </div>
+  
+    <div class="robot robot6">
+      <svg width="60" height="80" viewBox="0 0 64 80" xmlns="http://www.w3.org/2000/svg">
+        <rect x="17" y="12" width="30" height="55" rx="8" ry="8" fill="#0047ab" stroke="#003366" stroke-width="2"/>
+        <circle cx="26" cy="28" r="3" fill="#fff"/>
+        <circle cx="38" cy="28" r="3" fill="#fff"/>
+        <rect x="25" y="45" width="14" height="3" rx="1.5" fill="#00e5ff"/>
+      </svg>
+    </div>
+  
+    <!-- Hero Text -->
+    <div class="hero-content">
+      <h1>Innovating the Future</h1>
+      <p>Building next-generation technology solutions for your business</p>
+      <a href="#contact" class="hero-btn">Get in Touch</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <h2>About Us</h2>
+    <p>TechNova Solutions is a leading technology company specializing in software development, cloud solutions, and AI-powered applications. We help businesses innovate and scale efficiently.</p>
+    <p>Founded in 2015, our mission is to bridge technology and business growth by delivering state-of-the-art solutions that transform industries.</p>
+  </section>
+
+  <!-- Services Section -->
+  <section class="section" id="services">
+    <h2>Our Services</h2>
+    <div class="service-grid">
+      <div class="service-card">
+        <div class="icon">💻</div>
+        <h3>Software Development</h3>
+        <p>Custom software solutions tailored to your business needs.</p>
+      </div>
+      <div class="service-card">
+        <div class="icon">☁</div>
+        <h3>Cloud Solutions</h3>
+        <p>Scalable and secure cloud architecture for modern businesses.</p>
+      </div>
+      <div class="service-card">
+        <div class="icon">🤖</div>
+        <h3>AI & Machine Learning</h3>
+        <p>AI-powered systems to automate, predict, and optimize your processes.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technologies Section -->
+  <section class="section" id="technologies">
+    <h2>Technologies We Use</h2>
+    <div class="tech-grid">
+      <div class="tech-item">Python</div>
+      <div class="tech-item">JavaScript</div>
+      <div class="tech-item">React</div>
+      <div class="tech-item">Node.js</div>
+      <div class="tech-item">AWS</div>
+      <div class="tech-item">Docker</div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: contact@AllyNest.com</p>
+    <p>Phone: +91 1234 567890</p>
+    <p>Address: 123 Tech Avenue, Silicon City</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-column">
+        <h3>AllyNest</h3>
+        <p>Innovating the Future of Technology.</p>
+      </div>
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#technologies">Technologies</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Contact</h4>
+        <p>Email: contact@AllyNest.com</p>
+        <p>Phone: +91 1234 567890</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2025 AllyNest. All rights reserved.
+    </div>
+  </footer>
+  <script src="AllyNest.js"></script>
+</body>
+</html>
